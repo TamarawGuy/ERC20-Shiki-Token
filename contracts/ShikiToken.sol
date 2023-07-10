@@ -21,7 +21,7 @@ contract ShikiToken is ERC20, ERC20Capped {
         uint reward
     ) ERC20("ShikiToken", "SHK") ERC20Capped(cap * (10 ** decimals())) {
         owner = payable(msg.sender);
-        _mint(owner, 70000000 * (10 ** decimals()));
+        _mint(owner, 700 * (10 ** decimals()));
         blockReward = reward * (10 ** decimals());
     }
 
@@ -61,6 +61,5 @@ contract ShikiToken is ERC20, ERC20Capped {
 
     function destroy() public onlyOwner {
         selfdestruct(owner);
-        
     }
 }
