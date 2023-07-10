@@ -3,7 +3,7 @@
 ## Contract address
 
 ```
-0x16600ceedCd9cF98f1c88B0A0214e5a8a3Bfb80D
+0xe9493221fc7a16ccedd2380fa8d90176536ecb3d
 ```
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
